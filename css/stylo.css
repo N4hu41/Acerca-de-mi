@@ -1,0 +1,67 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', normal;
+    background-color: #EEE5E4;
+}
+
+.foto{
+    
+    border-radius: 100%;
+    border:3px solid white;
+    height: 200px;
+    width: 200px;
+    /*Centrar imagen*/
+    display: block;
+    margin: auto;
+    /*Fin centrar imagen*/
+}
+
+.seccion{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 7px 5px 5px #CFC6C5;
+    padding: 10px;
+    margin: 20px;
+}
+
+.seccion p{
+    text-align: justify;
+    padding: 40px;
+    font-size: 15pt;
+}
+
+.quote{
+    text-align: right;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+h1{
+    font-size: 40pt;
+    text-align: center;
+    color: #4A4B4D;
+    font-family: 'Ubuntu', cursive;
+    text-shadow: 5px 0px 5px #3B88FB;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+h2 span{
+    color: #3B88FB;
+    border: 5px dotted;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
